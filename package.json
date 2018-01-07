@@ -1,7 +1,7 @@
 {
-  "name": "curso-js-tdd",
+  "name": "spotify-wrapper-player",
   "version": "1.0.0",
-  "description": "Biblioteca do curso de JS com TDD na prática",
+  "description": "A player for the spotify wrapper",
   "main": "main.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*js",
@@ -14,12 +14,17 @@
     "functions": 80,
     "lines": 80,
     "check-coverage": true,
-    "reporter": ["text", "html"],
-    "exclude": ["tests/**"]
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "exclude": [
+      "tests/**"
+    ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/havok1305/curso-js-tdd.git"
+    "url": "git+https://github.com/havok1305/spotify-wrapper-player.git"
   },
   "keywords": [
     "js",
@@ -28,9 +33,9 @@
   "author": "Igor Martins <havok1305@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/havok1305/curso-js-tdd/issues"
+    "url": "https://github.com/havok1305/spotify-wrapper-player/issues"
   },
-  "homepage": "https://github.com/havok1305/curso-js-tdd#readme",
+  "homepage": "https://github.com/havok1305/spotify-wrapper-player#readme",
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
